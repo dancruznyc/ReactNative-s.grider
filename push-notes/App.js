@@ -40,12 +40,6 @@ export default function App() {
 
   useEffect(() => {
     requestPermissionsAsync();
-    async function getTokenAsync() {
-      let result = await Notifications.getExpoPushTokenAsync();
-      console.log(result);
-    }
-
-    getTokenAsync();
   }, []);
 
   useEffect(() => {
