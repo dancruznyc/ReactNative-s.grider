@@ -99,8 +99,6 @@ export default function App() {
     registerDeviceTokenWithSNS();
   }, []);
 
-  
-
   return (
     <View style={styles.container}>
       <Text>AWS SNS Demo</Text>
@@ -117,4 +115,3 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
-   
